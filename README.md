@@ -1,11 +1,12 @@
 # Project3
 
-Dataset: https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input 
-Dashboard Brainstorming
- 
-US Map: pins for each university because they give us the longitude and latitude and hover over option over the university that gives graduation rate and university name (Kesha) -Python Flask-powered API, HTML/CSS, JavaScript eg: d3 
+In this project, a dashboard is created to represent graduation data in Universities accross the United States for the year 2013. The dashboard includes a map with markers for each University studied and the graduation rate at each university. A drop-down menu is also shown on the dashboard and with a list of the universities and the average SAT and ACT scores. The third visualization included in the dashboard is a pie chart with the total number of Bachelors, Masters, and Doctoral graduates.  
 
-Steps:
+Dataset: https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input 
+
+
+
+
 
 Create US Map using tiles: Kesha
 
