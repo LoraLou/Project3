@@ -7,6 +7,10 @@ Dataset: https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-wi
 
 
 
+______________________________________________________________________
+
+Brainstorming for the presentation:
+
 
 Create US Map using tiles: Kesha
 
