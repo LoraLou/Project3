@@ -15,7 +15,7 @@ var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png'
 });
 
 
-var graduationURL = "https://public.tableau.com/app/resources/learn"
+var graduationURL = "https://nces.ed.gov/ipeds/.geojson"
 
 var baseMaps = {
     "Street Map View": OpenStreetMap,
