@@ -12,7 +12,7 @@ In this project, our group used 2013 graduation data from American universities 
 5. Hover over each pin and populate university name and graduation rate: Lora
 6. Create a dropdown menu of states and table that displays name of college(s), graduation rate(s), and average SAT and ACT scores: Juhi, Hima
 7. Develop a pie chart displaying percentage of Bachelors, Masters, Doctoral graduates from the US in 2013 (JS Library): Juhi, Hima
-8. Flask app: Kesha, Lora
+8. Flask app: Everyone
 9. Develop presentation and present: Everyone
 
 ### [Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
