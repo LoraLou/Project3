@@ -38,7 +38,7 @@ d3.json("IPEDS_data.geojson").then(function (Name) {
 
     var universityMarker = {
         radious: 8,
-        fillcolor: "coral",
+        fillcolor: "green",
         color: "darkgreen",
         weight: 1,
         opacity: 1,
