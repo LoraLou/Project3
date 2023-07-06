@@ -6,14 +6,14 @@ In this project, our group used 2013 graduation data from American universities 
 
 ### Team Member Responsiblities: 
 1. Maintain Read.me: Juhi and Lora
-2. Create US Map: Kesha
-3. Place pins for each university: Kesha
-4. Hover over each pin and display university name and graduation rate: Lora
-5. Drop down menu based on state and then it gives list of colleges and average SAT and ACT scores and graduation rate -(Juhi & Hima)
-6. Create a pie chart of total number of Bachelor, Master, Doctoral graduates from the US in 2013 (Juhi and Hima) -JS Library
-7. Create presentation: Lora
-
-Flask app: Austin (reference: https://www.geeksforgeeks.org/pass-javascript-variables-to-python-in-flask/)
+2. Converting data into geojson: Lora, Hima, Kesha
+3. Create US Map: Kesha
+4. Place pins for each university: Kesha
+5. Hover over each pin and display university name and graduation rate: Lora
+6. Drop down menu based on state and then it gives list of colleges and average SAT and ACT scores and graduation rate -(Juhi & Hima)
+7. Create a pie chart of total number of Bachelor, Master, Doctoral graduates from the US in 2013 (Juhi and Hima) -JS Library
+8. Flask app: Kesha
+9. Create presentation: Lora
 
 Dataset: https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input 
 
