@@ -15,5 +15,5 @@ In this project, our group used 2013 graduation data from American universities 
 8. Flask app: Kesha
 9. Create presentation: Lora
 
-### (Dataset) [https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input] 
+### [Dataset] (https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
 
