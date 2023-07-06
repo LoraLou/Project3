@@ -1,7 +1,7 @@
 // Create the base layers.
 var OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' +
-        '<br> USGS Analyst: Kesha<a bref="past link here">Github Repo</a>'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+       
 });
 
 var openTopoMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
@@ -60,4 +60,16 @@ d3.json("IPEDS_data.geojson").then(function (Name) {
 });
 
 
+var info = L.control();
 
+info.onAdd = function (myMap) {
+    this._div = L.DomUtil.create('div', 'info'); 
+    this.update();
+    return this._div;
+};
+
+info.update = function (props) {
+    this._div.innerHTML = '<h3>2013 Graduation Rates Across American Universities</h3>';
+};
+
+info.addTo(myMap);

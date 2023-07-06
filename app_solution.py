@@ -16,3 +16,17 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+@app.route("/")
+def home():
+    # """List of all available routes"""
+    return (
+        f"/api/v1.0/precipitation<br/>"
+        
+    )
+
+@app.route("/api/v1.0/precipitation")
+def precipitation():
+    session = Session(engine) 
