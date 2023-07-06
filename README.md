@@ -1,32 +1,19 @@
-# Project3
+# Project 3
 
-In this project, a dashboard is created to represent graduation data in Universities accross the United States for the year 2013. The dashboard includes a map with markers for each University studied and the graduation rate at each university. A drop-down menu is also shown on the dashboard and with a list of the universities and the average SAT and ACT scores. The third visualization included in the dashboard is a pie chart with the total number of Bachelors, Masters, and Doctoral graduates.  
+## Group Members: Juhi, Kesha, Lora, and Hima
+
+In this project, our group used 2013 graduation data from American universities to develop a HTML dashboard. Our dashboard includes the US map with pins locating the different universities. When you hover over this pin, the name and the graduation rate of the university will populate. Our dashboard will also include a drop-down menu to select for specific univerisites and a table will populate with the following information: name(s) of the university and the average SAT and ACT scores of admitted students. The last visualization included in our dashboard is a pie chart displaying the percentage of Bachelors, Masters, and Doctoral graduates.  
 
 Dataset: https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input 
-
-
-
-
 ______________________________________________________________________
 
-Brainstorming for the presentation:
-
-
-Create US Map using tiles: Kesha
-
-Putting pins for each university: Kesha
-
-Hover over each pin and display university name and graduation rate: Lora
+###Team Member Responsiblities: 
+1. Maintain Read.me: Juhi and Lora
+2. Create US Map: Kesha
+3. Place pins for each university: Kesha
+4. Hover over each pin and display university name and graduation rate: Lora
+5. Drop down menu based on state and then it gives list of colleges and average SAT and ACT scores and graduation rate -(Juhi & Hima)
+6. Create a pie chart of total number of Bachelor, Master, Doctoral graduates from the US in 2013 (Juhi and Hima) -JS Library
+7. Create presentation: Lora
 
 Flask app: Austin (reference: https://www.geeksforgeeks.org/pass-javascript-variables-to-python-in-flask/)
-
-Drop down menu based on state and then it gives list of colleges and average SAT and ACT scores and graduation rate -(Juhi & Hima)
-
-Create a pie chart of total number of Bachelor, Master, Doctoral graduates from the US in 2013 (Juhi and Hima) -JS Library
-
-Create presentation: Lora
-
-Maintain Read.me: Austin and Lora
-
-Resource https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input 
-
