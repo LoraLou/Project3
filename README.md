@@ -1,4 +1,4 @@
-# Project 3
+# Project 3: Graduation Rates of College Students in American Universities
 
 ## Group Members: Juhi, Kesha, Lora, and Hima
 
