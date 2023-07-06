@@ -1,5 +1,6 @@
 # 1. import Flask
 from flask import Flask
+import json
 
 # 2. Create an app, being sure to pass __name__
 app = Flask(__name__)
@@ -11,12 +12,6 @@ def home():
     print("Server received request for 'Home' page...")
     return "Group project 3"
 
-
-# 4. Define what to do when a user hits the /about route
-@app.route("/about")
-def about():
-    print("Server received request for 'About' page...")
-    return "Welcome to my 'About' page!"
 
 
 if __name__ == "__main__":
