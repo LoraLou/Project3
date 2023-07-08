@@ -2,7 +2,7 @@
 
 ### Group Members: Juhi, Kesha, Lora, and Hima
 
-In this project, our group used 2013 graduation data from American universities to develop a HTML dashboard. Our dashboard includes the US map with pins locating the different universities. When you hover over each pin, the name and the graduation rate of the university will populate. Our dashboard will also include a dropdown menu to select for a specific state and a table will populate with the following information: name(s) of the university, graduation rate(s), and the average SAT and ACT scores of admitted students for the specific state selected in the drop-down menu. The last visualization included in our dashboard is a pie chart displaying the percentage of Bachelors, Masters, and Doctoral graduates in America in 2013.  
+In this project, our group used 2013 graduation data from American universities to develop a HTML dashboard. Our dashboard includes the US map with pins locating different universities. When you hover over each pin, the name and the graduation rate of the university will populate. Our dashboard will also include a dropdown menu to select for a specific state, which will result in a table being displayed with the following information: name(s) of the university, graduation rate(s), and the average SAT and ACT scores of admitted students. The last visualization included in our dashboard is a pie chart displaying the percentage of Bachelors, Masters, and Doctoral graduates in America in 2013.  
 
 ### Team Member Responsiblities: 
 1. Maintain README: Juhi, Lora
