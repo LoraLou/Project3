@@ -1,6 +1,7 @@
 // Create the base layers.
 var OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' +
+    '<br> Data Analyst: Kesha, Lora, Hima, Juhi <a href="https://github.com/LoraLou/Project3">Github Repo</a>'
        
 });
 
