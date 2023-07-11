@@ -16,5 +16,6 @@ In this project, our group used 2013 graduation data from American universities 
 9. Flask app: Everyone
 10. Develop presentation and present: Everyone (Lora gives introduction)
 
+### [Presentation](https://docs.google.com/presentation/d/16MGWfZJCotK0P8OZmjzaX3lvFx-8145NvsQd3Tv3eiM/edit?usp=sharing) 
 ### [Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
 
