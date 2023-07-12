@@ -8,7 +8,7 @@ In this project, our group focused on describing the state of American universit
 1. Maintain README: Juhi, Lora
 2. Converting data into geojson: Lora, Hima, Kesha
 3. Create US Map: Kesha
-4. green pins for each university: Kesha
+4. Created title and green pins(markers) for each university: Kesha
 5. Select each pin and populate university name, graduation rate and total enrollment: Lora
 6. Adjust marker color to match graduation rate (red for low graduation rate, green for high graduation rate): Lora
 7. Create a dashboard with a dropdown menu of university names and a metadata panel with graduation rate(s), a bar chart with SAT scores, and a line graph with tuition and fees: Juhi
