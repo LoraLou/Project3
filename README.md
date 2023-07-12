@@ -1,4 +1,4 @@
-# Project 3: Graduation Rates Across American Universities
+# Project 3: The State of American Universities in 2013
 
 ### Group Members: Juhi, Kesha, Lora, and Hima
 
