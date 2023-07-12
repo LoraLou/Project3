@@ -1,7 +1,6 @@
 // Create the base layers.
 var OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' +
-    '<br> Data Analyst: Kesha, Lora, Hima, Juhi <a href="https://github.com/LoraLou/Project3">Github Repo</a>'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
        
 });
 
@@ -34,7 +33,7 @@ L.control.layers(baseMaps, overlayMaps, {
 }).addTo(myMap);
 
 
-d3.json("resources/IPEDS_data.geojson").then(function (Name) {
+d3.json("IPEDS_data.geojson").then(function (Name) {
     console.log(Name.features[0])
 
     var universityMarker = {
@@ -54,13 +53,9 @@ d3.json("resources/IPEDS_data.geojson").then(function (Name) {
         },
     // add hoverover information can go here
     onEachFeature: function onEachFeature(feature, layer){
-        layer.bindPopup(`
-        <h3>${feature.properties.Name}</h3>
-        <hr>
-        <h3>Graduation Rate Within 4 Years(%): ${feature.properties.GraduationRateBachelorDegreeWithin4YearsTotal}</h3>
-        <h3>Total Enrollment: ${feature.properties.TotalEnrollment}</h3>
-        `);
+        layer.bindPopup('test')
     }
+
     }).addTo(myMap);
 });
 
