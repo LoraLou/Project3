@@ -34,7 +34,7 @@ L.control.layers(baseMaps, overlayMaps, {
 }).addTo(myMap);
 
 
-d3.json("resources/IPEDS_data.geojson").then(function (Name) {
+d3.json("resource/schools.geojson").then(function (Name) {
     console.log(Name.features[0])
     // marker function (LORA)
     function markerColor(rate) {
