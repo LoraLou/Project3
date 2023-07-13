@@ -18,3 +18,4 @@ In this project, our group focused on describing the state of American universit
 ### [Presentation](https://docs.google.com/presentation/d/16MGWfZJCotK0P8OZmjzaX3lvFx-8145NvsQd3Tv3eiM/edit?usp=sharing) 
 ### [Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
 ### [Map](https://loralou.github.io/MapLeafletGroup3/)
+### [Dashboard](https://loralou.github.io/Project3/)
