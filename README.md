@@ -22,5 +22,5 @@ Based on a 2013 dataset, universities that have higher SAT critical reading and 
 ### Links:
 [Presentation](https://docs.google.com/presentation/d/16MGWfZJCotK0P8OZmjzaX3lvFx-8145NvsQd3Tv3eiM/edit?usp=sharing) 
 <br> [Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
-[Map](https://loralou.github.io/MapLeafletGroup3/)
-[Dashboard](https://loralou.github.io/Project3/)
+<br> [Map](https://loralou.github.io/MapLeafletGroup3/)
+<br> [Dashboard](https://loralou.github.io/Project3/)
