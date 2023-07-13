@@ -74,8 +74,8 @@ def States():
 #Counties Route
 @app.route("/api/v1.0/Counties")
 def Counties():
-    countyresults= SchoolData.distinct('County name')
-    Counties = list(np.ravel(countyresults))
+    Countyresults= SchoolData.distinct('County name')
+    Counties = list(np.ravel(Countyresults))
     
     return jsonify(Counties)
    
