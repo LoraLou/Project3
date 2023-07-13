@@ -43,12 +43,18 @@ def home():
     return (
         f"Welcome to the U.S. University Analysis API<br/>"
         f"Available Routes:<br>"
+        f"<br>"
         f"1. All University Names<br>"
         f"/api/v1.0/Universities<br>"
+        f"<br>"
+        f"2. All States with the Universities<br>"
         f"/api/v1.0/States<br>"
-        
+        f"<br>"
+        f"3. All Counties<br>"
+        f"/api/v1.0/Counties<br>"
+ 
     )
-    ## print(mongo.list_database_names())
+
 # Universities route
 @app.route("/api/v1.0/Universities")
 def Universities():
@@ -63,6 +69,15 @@ def States():
     States = list(np.ravel(Stateresults))
     
     return jsonify(States)
+
+
+#Counties Route
+@app.route("/api/v1.0/Counties")
+def Counties():
+    Countyresults= SchoolData.distinct('County name')
+    Counties = list(np.ravel(Countyresults))
+    
+    return jsonify(Counties)
    
 
 if __name__ == '__main__':
