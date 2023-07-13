@@ -16,7 +16,11 @@ In this project, our group focused on describing the state of American universit
 9. Develop Flask app: Hima & Lora
 10. Develop presentation and present: Everyone
 
-### [Presentation](https://docs.google.com/presentation/d/16MGWfZJCotK0P8OZmjzaX3lvFx-8145NvsQd3Tv3eiM/edit?usp=sharing) 
-### [Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
-### [Map](https://loralou.github.io/MapLeafletGroup3/)
-### [Dashboard](https://loralou.github.io/Project3/)
+### Conclusion:
+Based on a 2013 dataset, universities that have higher SAT critical reading and math scores (75th percentile) are associated with having higher rates of graduation for a Bachelor’s degree in 4 years. High admitted SAT scores serve as a reliable indicator for undergraduate graduation rates.
+
+### Links:
+[Presentation](https://docs.google.com/presentation/d/16MGWfZJCotK0P8OZmjzaX3lvFx-8145NvsQd3Tv3eiM/edit?usp=sharing) 
+[Dataset](https://www.kaggle.com/code/devisangeetha/find-your-university-in-us-with-leaflet-viz/input) 
+[Map](https://loralou.github.io/MapLeafletGroup3/)
+[Dashboard](https://loralou.github.io/Project3/)
