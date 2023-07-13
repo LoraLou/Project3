@@ -19,7 +19,7 @@ In this project, our group focused on describing the state of American universit
     
 ### Files:
 Dashboard Files: index.html, IPEDS_data_dashboard.geojson, static/logic_dashboard.js
-Map Files: map.html, static/logic.js, resource/schools.geojson, style.css
+<br> Map Files: map.html, static/logic.js, resource/schools.geojson, style.css
 Flask app: flask_app.py
 
 ### Conclusion:
