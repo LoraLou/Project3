@@ -18,8 +18,8 @@ In this project, our group focused on describing the state of American universit
 10. Develop presentation and present: Everyone
     
 ### Files:
-Dashboard Files: index.html, IPEDS_data_dashboard.geojson, static/logic_dashboard.js
-<br> Map Files: map.html, static/logic.js, resource/schools.geojson, static/style.css
+Dashboard Files: index.html, static/logic_dashboard.js, IPEDS_data_dashboard.geojson
+<br> Map Files: map.html, static/logic.js, static/style.css, resource/schools.geojson
 <br> Flask app: flask_app.py
 
 ### Conclusion:
