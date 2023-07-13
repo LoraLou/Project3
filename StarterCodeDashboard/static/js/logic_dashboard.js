@@ -111,7 +111,94 @@ function buildLine(index){
           
         })};
 
+//Build function called buildMetadata to create a metadata panel with graduation information
+function buildScatter(index) {
+    d3.json("IPEDS_data_dashboard.geojson").then(function (data) {
+        let sampledata1 = data.features;
+        console.log("sampledata")
+        console.log(sampledata1)
 
+        var gradrate = [];
+        var math = [];
+        var reading = []
+
+        for (let index=0; index<sampledata1.length; index++){
+            gradrate.push(sampledata1[index].properties.Graduationrate4years);
+            math.push(sampledata1[index].properties.SATMath75thpercentilescore);
+            reading.push(sampledata1[index].properties.SATCriticalReading75thpercentilescore);
+        };  
+
+        //Math Scatter Plot:
+        var math_plot = {
+            x: math,
+            y: gradrate,
+            type: 'scatter',
+            mode: 'markers',
+            line: {
+                color: 'rgb(0, 124, 0)',
+                opacity: 0.6,
+                width: 5
+                }
+        };
+
+        var math_data2 = [math_plot];
+
+        var math_layout2 = {
+            title:'SAT Math Score vs. Graduation Rate',
+            xaxis: {
+                title: 'SAT Math Scores (75th percentile)',
+                titlefont: {
+                  family: 'Arial, sans-serif',
+                  size: 14,
+                  color: 'black'
+                }},
+            yaxis: {
+                title: 'Graduation Rate (4 Years)',
+                titlefont: {
+                    family: 'Arial, sans-serif',
+                    size: 14,
+                    color: 'black'
+                }
+            }};
+        
+        Plotly.newPlot('scatterplot', math_data2, math_layout2);
+
+         //Reading Scatter Plot:
+
+        var reading_plot = {
+            x: reading,
+            y: gradrate,
+            type: 'scatter',
+            mode: 'markers',
+            line: {
+                color: 'rgb(0, 124, 0)',
+                opacity: 0.6,
+                width: 5
+                }
+            };
+        
+        var reading_data3 = [reading_plot];
+
+        var reading_layout3 = {
+            title:'SAT Reading Score vs. Graduation Rate',
+            xaxis: {
+                title: 'SAT Reading Scores (75th percentile)',
+                titlefont: {
+                  family: 'Arial, sans-serif',
+                  size: 14,
+                  color: 'black'
+                }},
+            yaxis: {
+                title: 'Graduation Rate (4 Years)',
+                titlefont: {
+                    family: 'Arial, sans-serif',
+                    size: 14,
+                    color: 'black'
+                }
+            }};
+        
+        Plotly.newPlot('scatterplot1', reading_data3, reading_layout3);
+    })};
 
 /* Update all the plots when a new sample is selected. 
 <select id="selDataset" onchange="optionChanged(this.value)"></select> */
@@ -146,6 +233,7 @@ function initialize(){
         buildMetadata(firstvalue);
         buildBar(firstvalue);
         buildLine(firstvalue);
+        buildScatter(firstvalue);
 
     })};
 
