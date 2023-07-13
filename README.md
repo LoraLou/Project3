@@ -12,7 +12,7 @@ In this project, our group focused on describing the state of American universit
 4. Create title and green markers locating each university: Kesha
 5. Develop code so that each marker selected results in university name, graduation rate, and total enrollment being displayed: Lora
 6. Adjust marker color to match graduation rate (red for low graduation rate, green for high graduation rate): Lora
-7. Create a dashboard with a dropdown menu of university names and a metadata panel with graduation rate(s), a bar chart with SAT scores, a line graph with tuition and fees and scatterplots showing SAT scores and graduation rate: Juhi
+7. Create a dashboard with a dropdown menu of university names and a metadata panel with graduation rate(s), a bar chart with SAT scores, a line graph with tuition and fees and scatterplots showing SAT scores and graduation rate: Juhi, Hima
 8. Create Mongo database: Everyone
 9. Develop Flask app: Everyone
 10. Develop presentation and present: Everyone
