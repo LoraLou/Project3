@@ -16,6 +16,10 @@ In this project, our group focused on describing the state of American universit
 8. Create Mongo database: Everyone
 9. Develop Flask app: Everyone
 10. Develop presentation and present: Everyone
+    
+###Files:
+Dashboard Files: index.html, IPEDS_data_dashboard.geojson, static>logic_dashboard.js
+Map Files: map.html, logic.js
 
 ### Conclusion:
 Based on a 2013 dataset, universities that have higher SAT critical reading and math scores (75th percentile) are associated with having higher rates of graduation for a Bachelor’s degree in 4 years. High admitted SAT scores serve as a reliable indicator for undergraduate graduation rates.
